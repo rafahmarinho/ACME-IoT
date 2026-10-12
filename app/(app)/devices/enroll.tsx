@@ -41,7 +41,7 @@ export default function EnrollDeviceScreen() {
     const newDevice: Device = {
       id: `dev-${Date.now()}`,
       organizationId: activeOrg.id,
-      roomId: selectedRoomId || rooms[0]?.id || 'r1111111-0000-0000-0000-000000000001',
+      roomId: selectedRoomId || rooms[0]?.id || 'aa111111-0000-0000-0000-000000000001',
       name,
       serialNumber,
       enrollmentCode,

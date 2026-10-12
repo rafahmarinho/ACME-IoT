@@ -59,7 +59,7 @@ export const QRScannerModal: React.FC<QRScannerModalProps> = ({
     const newDevice: Device = {
       id: `dev-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
       organizationId,
-      roomId: selectedRoomId || rooms[0]?.id || 'r1111111-0000-0000-0000-000000000001',
+      roomId: selectedRoomId || rooms[0]?.id || 'aa111111-0000-0000-0000-000000000001',
       name,
       serialNumber,
       enrollmentCode,

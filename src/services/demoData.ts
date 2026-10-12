@@ -114,7 +114,7 @@ export const INITIAL_BUILDINGS: Building[] = [
 
 export const INITIAL_ROOMS: Room[] = [
   {
-    id: 'r1111111-0000-0000-0000-000000000001',
+    id: 'aa111111-0000-0000-0000-000000000001',
     buildingId: 'b1111111-0000-0000-0000-000000000001',
     name: 'Executive Boardroom',
     floor: 4,
@@ -125,7 +125,7 @@ export const INITIAL_ROOMS: Room[] = [
     createdAt: '2026-01-16T09:00:00Z',
   },
   {
-    id: 'r1111111-0000-0000-0000-000000000002',
+    id: 'aa111111-0000-0000-0000-000000000002',
     buildingId: 'b1111111-0000-0000-0000-000000000001',
     name: 'Server & Network Hub',
     floor: 1,
@@ -136,7 +136,7 @@ export const INITIAL_ROOMS: Room[] = [
     createdAt: '2026-01-16T09:30:00Z',
   },
   {
-    id: 'r1111111-0000-0000-0000-000000000003',
+    id: 'aa111111-0000-0000-0000-000000000003',
     buildingId: 'b1111111-0000-0000-0000-000000000001',
     name: 'Open Engineering Space',
     floor: 3,
@@ -147,7 +147,7 @@ export const INITIAL_ROOMS: Room[] = [
     createdAt: '2026-01-17T09:00:00Z',
   },
   {
-    id: 'r2222222-0000-0000-0000-000000000001',
+    id: 'aa222222-0000-0000-0000-000000000001',
     buildingId: 'b2222222-0000-0000-0000-000000000001',
     name: 'Pharma Cold Storage',
     floor: 1,
@@ -158,7 +158,7 @@ export const INITIAL_ROOMS: Room[] = [
     createdAt: '2026-03-02T10:00:00Z',
   },
   {
-    id: 'r2222222-0000-0000-0000-000000000002',
+    id: 'aa222222-0000-0000-0000-000000000002',
     buildingId: 'b2222222-0000-0000-0000-000000000002',
     name: 'Loading Dock & Staging',
     floor: 1,
@@ -175,7 +175,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000001',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000001',
+    roomId: 'aa111111-0000-0000-0000-000000000001',
     name: 'Boardroom Thermostat Pro',
     serialNumber: 'ACME-TH-001',
     enrollmentCode: 'ENR-TH-9021',
@@ -203,7 +203,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000002',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000001',
+    roomId: 'aa111111-0000-0000-0000-000000000001',
     name: 'AV & Display Smart Plug',
     serialNumber: 'ACME-PLUG-001',
     enrollmentCode: 'ENR-PL-4431',
@@ -225,7 +225,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000003',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000001',
+    roomId: 'aa111111-0000-0000-0000-000000000001',
     name: 'Ceiling Occupancy Sensor',
     serialNumber: 'ACME-OCC-001',
     enrollmentCode: 'ENR-OC-1102',
@@ -251,7 +251,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000004',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000001',
+    roomId: 'aa111111-0000-0000-0000-000000000001',
     name: 'South Window Temp Sensor',
     serialNumber: 'ACME-TMP-001',
     enrollmentCode: 'ENR-TS-5509',
@@ -273,7 +273,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000005',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000001',
+    roomId: 'aa111111-0000-0000-0000-000000000001',
     name: 'Ambient Humidity Probe',
     serialNumber: 'ACME-HUM-001',
     enrollmentCode: 'ENR-HM-7781',
@@ -297,7 +297,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000006',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000002',
+    roomId: 'aa111111-0000-0000-0000-000000000002',
     name: 'Server Room Precision AC',
     serialNumber: 'ACME-TH-002',
     enrollmentCode: 'ENR-TH-8812',
@@ -325,7 +325,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000007',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000002',
+    roomId: 'aa111111-0000-0000-0000-000000000002',
     name: 'Rack 01 Primary PDU Plug',
     serialNumber: 'ACME-PLUG-002',
     enrollmentCode: 'ENR-PL-9022',
@@ -347,7 +347,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000008',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000002',
+    roomId: 'aa111111-0000-0000-0000-000000000002',
     name: 'Rack Intake Temp Sensor',
     serialNumber: 'ACME-TMP-002',
     enrollmentCode: 'ENR-TS-9943',
@@ -369,7 +369,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000009',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000002',
+    roomId: 'aa111111-0000-0000-0000-000000000002',
     name: 'Server Humidity Monitor',
     serialNumber: 'ACME-HUM-002',
     enrollmentCode: 'ENR-HM-4401',
@@ -391,7 +391,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000010',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000002',
+    roomId: 'aa111111-0000-0000-0000-000000000002',
     name: 'Server Hub Security Radar',
     serialNumber: 'ACME-OCC-002',
     enrollmentCode: 'ENR-OC-3310',
@@ -419,7 +419,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000011',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000003',
+    roomId: 'aa111111-0000-0000-0000-000000000003',
     name: 'Floor Zone A Thermostat',
     serialNumber: 'ACME-TH-003',
     enrollmentCode: 'ENR-TH-7729',
@@ -447,7 +447,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000012',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000003',
+    roomId: 'aa111111-0000-0000-0000-000000000003',
     name: 'Espresso Bar Smart Plug',
     serialNumber: 'ACME-PLUG-003',
     enrollmentCode: 'ENR-PL-5114',
@@ -469,7 +469,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000013',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000003',
+    roomId: 'aa111111-0000-0000-0000-000000000003',
     name: 'East Atrium Temp Sensor',
     serialNumber: 'ACME-TMP-003',
     enrollmentCode: 'ENR-TS-2039',
@@ -491,7 +491,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd1111111-0000-0000-0000-000000000014',
     organizationId: '11111111-1111-1111-1111-111111111111',
-    roomId: 'r1111111-0000-0000-0000-000000000003',
+    roomId: 'aa111111-0000-0000-0000-000000000003',
     name: 'Engineering Motion Grid',
     serialNumber: 'ACME-OCC-003',
     enrollmentCode: 'ENR-OC-8891',
@@ -519,7 +519,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd2222222-0000-0000-0000-000000000015',
     organizationId: '22222222-2222-2222-2222-222222222222',
-    roomId: 'r2222222-0000-0000-0000-000000000001',
+    roomId: 'aa222222-0000-0000-0000-000000000001',
     name: 'Cold Storage Unit A Chiller',
     serialNumber: 'ACME-TH-004',
     enrollmentCode: 'ENR-TH-4490',
@@ -547,7 +547,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd2222222-0000-0000-0000-000000000016',
     organizationId: '22222222-2222-2222-2222-222222222222',
-    roomId: 'r2222222-0000-0000-0000-000000000001',
+    roomId: 'aa222222-0000-0000-0000-000000000001',
     name: 'Cold Chain Pallet Probe',
     serialNumber: 'ACME-TMP-004',
     enrollmentCode: 'ENR-TS-9980',
@@ -569,7 +569,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd2222222-0000-0000-0000-000000000017',
     organizationId: '22222222-2222-2222-2222-222222222222',
-    roomId: 'r2222222-0000-0000-0000-000000000001',
+    roomId: 'aa222222-0000-0000-0000-000000000001',
     name: 'Cold Vault Humidity Probe',
     serialNumber: 'ACME-HUM-003',
     enrollmentCode: 'ENR-HM-2391',
@@ -591,7 +591,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd2222222-0000-0000-0000-000000000018',
     organizationId: '22222222-2222-2222-2222-222222222222',
-    roomId: 'r2222222-0000-0000-0000-000000000001',
+    roomId: 'aa222222-0000-0000-0000-000000000001',
     name: 'Auxiliary Dehumidifier Plug',
     serialNumber: 'ACME-PLUG-004',
     enrollmentCode: 'ENR-PL-7703',
@@ -616,7 +616,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd2222222-0000-0000-0000-000000000019',
     organizationId: '22222222-2222-2222-2222-222222222222',
-    roomId: 'r2222222-0000-0000-0000-000000000002',
+    roomId: 'aa222222-0000-0000-0000-000000000002',
     name: 'Dock Gate Occupancy Radar',
     serialNumber: 'ACME-OCC-004',
     enrollmentCode: 'ENR-OC-9904',
@@ -643,7 +643,7 @@ export const INITIAL_DEVICES: Device[] = [
   {
     id: 'd2222222-0000-0000-0000-000000000020',
     organizationId: '22222222-2222-2222-2222-222222222222',
-    roomId: 'r2222222-0000-0000-0000-000000000002',
+    roomId: 'aa222222-0000-0000-0000-000000000002',
     name: 'Forklift Rapid Charger #1',
     serialNumber: 'ACME-PLUG-005',
     enrollmentCode: 'ENR-PL-0091',
