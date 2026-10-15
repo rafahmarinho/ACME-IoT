@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "acme-iot-web",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["web"],
+      "port": 8081
+    }
+  ]
+}

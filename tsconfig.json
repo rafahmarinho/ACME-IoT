@@ -14,7 +14,9 @@
     "target": "ESNext",
     "strict": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
   "include": [
@@ -25,7 +27,9 @@
   ],
   "exclude": [
     "node_modules",
+    "demo",
     "babel.config.js",
     "metro.config.js"
-  ]
+  ],
+  "extends": "expo/tsconfig.base"
 }
